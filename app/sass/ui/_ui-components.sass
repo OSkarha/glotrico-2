@@ -1,0 +1,212 @@
+body
+  margin: 0
+  font-weight: normal
+  font-size: 16px
+  color: #000000
+  font-family: 'Roboto', sans-serif
+  background-color: $white
+  position: relative
+  transition: .2s ease-in
+  background: #EAE8ED
+  & *
+    margin: 0
+    padding: 0
+    border: 0
+    outline: 0
+    background-color: transparent
+    box-sizing: border-box
+  &.search-page
+    background: #fdfdfd
+a
+  text-decoration: none
+  transition: .2s
+  color: inherit
+  &:hover
+    color: $orange!important
+
+ul
+  list-style: none
+
+img
+  max-width: 100%
+
+button
+  cursor: pointer
+  font-family: 'Roboto', sans-serif
+
+textarea,
+input
+  font-family: 'Roboto', sans-serif
+
+label
+  cursor: pointer
+  &:focus,
+  &:hover,
+  &:active
+    outline: 0
+    outline-offset: 0
+    -webkit-tap-highlight-color: transparent
+    user-select: none
+
+section
+  flex-grow: 1
+
+select, input, textarea
+  appearance: none
+  border-radius: 0
+  background-color: transparent
+
+.content-wrapper
+  min-height: 100vh
+  display: flex
+  flex-direction: column
+  position: relative
+  transition: .3s
+  left: 0
+
+.page-wrapper
+  flex: 1 1
+
+.footer-wrapper
+  flex: 0 1
+
+.box
+  width: 100%
+  display: flex
+  max-width: 1380px
+  padding: 0 30px
+  margin: 0 auto
+  position: relative
+
+.column
+  flex-direction: column
+
+.text-center
+  text-align: center
+
+.col-100
+  flex: 0 0 100%
+  max-width: 100%
+
+.d-flex
+  display: flex
+
+.wrap
+  display: flex
+  align-items: stretch
+  align-content: space-between
+  justify-content: space-between
+
+  flex-flow: row nowrap
+
+
+.row
+  width: 100%
+  display: flex
+
+.row-wrap
+  flex-flow: row wrap
+.col-50
+  flex: 0 0 50%
+  max-width: 50%
+  -webkit-box-flex: 0
+
+.col-20
+  flex: 0 0 20%
+  max-width: 20%
+  -webkit-box-flex: 0
+
+.col-15
+  flex: 0 0 15%
+  max-width: 15%
+  -webkit-box-flex: 0
+
+.col-25
+  flex: 0 0 25%
+  max-width: 25%
+  -webkit-box-flex: 0
+.col-40
+  flex: 0 0 40%
+  max-width: 40%
+  -webkit-box-flex: 0
+.col-60
+  flex: 0 0 60%
+  max-width: 60%
+  -webkit-box-flex: 0
+.col-70
+  flex: 0 0 70%
+  max-width: 70%
+  -webkit-box-flex: 0
+
+.col-75
+  flex: 0 0 75%
+  max-width: 75%
+  -webkit-box-flex: 0
+.w-100
+  width: 100%
+
+.h-50
+  height: 50%
+
+.space-between
+  justify-content: space-between
+
+.justify-center
+  justify-content: center
+.justify-start
+  justify-content: flex-start
+.ai-center
+  align-items: center
+.ai-end
+  align-items: flex-end
+.ai-start
+  align-items: flex-start
+.flex-wrap
+  flex-wrap: wrap
+
+.h-100
+  height: 100%
+
+.p-RL20
+  padding: 0px 20px
+
+.m0-auto
+  margin: 0 auto
+
+h1.title
+  font-family: 'Source Sans Pro', sans-serif
+  font-style: normal
+  font-weight: 600
+  font-size: 30px
+  line-height: 38px
+  text-transform: uppercase
+h4.title
+  font-family: 'Source Sans Pro', sans-serif
+  font-style: normal
+  font-weight: 600
+  font-size: 20px
+  line-height: 40px
+  color: $black
+
+h5.title
+  font-family: 'Source Sans Pro', sans-serif
+  font-style: normal
+  font-weight: 600
+  font-size: 14px
+  line-height: 17.6px
+  color: $black
+
+body
+  scrollbar-width: thin
+  &::-webkit-scrollbar
+    height: 8px
+    background-color: #E9F1FC
+  &::-webkit-scrollbar
+    height: 8px
+    width: 8px
+    background-color: #E9F1FC
+  &::-webkit-scrollbar-thumb
+    height: 8px
+    border-radius: 4px
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3)
+    background-color: #ADC9D4
